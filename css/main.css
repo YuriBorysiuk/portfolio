@@ -10,6 +10,13 @@ font-family: "Poppins", sans-serif;
 	border: 1px solid red;
 }*/
 
+:root {
+	--dark-bg: #171718;;
+	--dark-border: #171718;
+	--header-text: #fff;
+	--accent: #5C62EC;
+}
+
 html,
 body {
 	font-family: "DM Sans", sans-serif;
@@ -25,9 +32,9 @@ body {
 
 .nav {
 	padding: 20px 0;
-	border-bottom: 1px solid #26292D;
-	background-color: #171718;
-	color: #fff;
+	border-bottom: 1px solid var(--dark-border);
+	background-color: var(--dark-bg);
+	color: var(--header-text);
 }
 
 .nav-row {
@@ -40,7 +47,7 @@ body {
 }
 
 .logo {
-	color: #fff;
+	color: var(--header-text);
 	font-size: 24px;
 	font-family: "Poppins", sans-serif;
 }
@@ -61,7 +68,7 @@ body {
 }
 
 .nav-list__link {
-	color:#fff;
+	color:var(--header-text);
 	
 }
 
@@ -77,5 +84,5 @@ body {
 	display: block;
 	height: 2px;
 	width: 100%;
-	background-color: #5C62EC;
+	background-color: var(--accent);
 }
