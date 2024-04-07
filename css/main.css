@@ -12,7 +12,7 @@ font-family: "Poppins", sans-serif;
 
 :root {
 	--dark-bg: #171718;;
-	--dark-border: #171718;
+	--dark-border: #26292D;
 	--header-text: #fff;
 	--accent: #5C62EC;
 }
@@ -20,6 +20,7 @@ font-family: "Poppins", sans-serif;
 html,
 body {
 	font-family: "DM Sans", sans-serif;
+	letter-spacing: -0.5px;
 }
 
 .container {
@@ -85,4 +86,37 @@ body {
 	height: 2px;
 	width: 100%;
 	background-color: var(--accent);
+}
+
+
+/* Header */
+
+.header {
+	padding: 40px 0;
+	min-height: 695px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--dark-bg);
+	color: var(--header-text);
+	text-align: center;
+}
+
+.header__wrapper {
+	padding: 0 15px;
+	max-width: 660px;
+}
+
+.header__title {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.header__text {
+
+}
+
+.btn {
+
 }
