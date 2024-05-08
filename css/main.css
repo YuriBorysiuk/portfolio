@@ -71,11 +71,11 @@ body {
 
 .nav-row {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	column-gap: 30px;
 	row-gap: 20px;
-	flex-wrap: wrap;
 }
 
 .logo {
@@ -92,6 +92,8 @@ body {
 
 .nav-list {
 	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
 	align-items: center;
 	column-gap: 40px;
 	font-size: 16px;
@@ -229,6 +231,7 @@ body {
 .projects {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	column-gap: 30px;
 	row-gap: 30px;
 }
@@ -336,3 +339,88 @@ body {
 
 
 
+@media (max-width: 620px) {
+
+
+	/* Header */
+
+	.header {
+		min-height: unset;
+	}
+
+	.header__title {
+		font-size: 30px;
+	}
+
+	.header__title strong {
+		font-size: 40px;
+	}
+
+
+	/* General */
+
+	.section {
+		padding: 40px 0;
+	}
+
+	.title-1 {
+		margin-bottom: 30px;
+		font-size: 40px;
+	}
+
+	.title-2 {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+
+	/* Projects */
+	
+	.project__title {
+		font-size: 22px;
+	}
+
+
+	/* Project Page */
+
+	.project-details__desc {
+		margin-bottom: 20px;
+		font-size: 22px;
+	}
+
+	
+	/* Content List */
+	
+	.content-list {
+		row-gap: 20px;
+	}
+	
+	.cintent-list__item {
+		font-size: 16px;
+	}
+
+
+	/* Footer */
+
+	.footer {
+		padding: 40px 0 30px;
+	}
+
+	.footer__wrapper {
+		row-gap: 20px;
+	}
+	
+
+	/* Social */
+
+	.social {
+		column-gap: 20px;
+	}
+
+	.social__item {
+		width: 28px;
+	}
+
+
+
+} 
