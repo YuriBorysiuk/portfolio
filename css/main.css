@@ -95,6 +95,8 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	row-gap: 10px;
+	flex-wrap: wrap;
+	row-gap: 10px;
 	align-items: center;
 	column-gap: 40px;
 	font-size: 16px;
@@ -269,6 +271,7 @@ body {
 .projects {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	justify-content: center;
 	column-gap: 30px;
 	row-gap: 30px;
