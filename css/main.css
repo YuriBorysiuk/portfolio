@@ -398,12 +398,17 @@ body {
 	}
 
 	/* Nav */
+	
 	.nav-row {
 		justify-content: space-between;
 	}
 
+	.logo {
+		margin-right: 70px;
+	}
+
 	.dark-mode-btn {
-		order: 0 ;
+		order: 0;
 	}
 
 	/* General */
